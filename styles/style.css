@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+}
+
+.title {
+    width: 100vw;
+    height: 10vh;
+    background-color: chartreuse;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.container1{
+    width: 600px;
+    height: 200px;
+    background-color: black;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.container2{
+    width: 600px;
+    height: 200px;
+    background-color: black;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 5px 20px;
+}
+
+.container3{
+    width: 600px;
+    height: 200px;
+    background-color: black;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    margin-right: 20px;
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    margin-right: 20px;
+}
+
+.box3 {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+}
+
+.box4 {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    margin-right: 20px;
+}
+
+.box5 {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    margin-right: 20px;
+}
+
+.box6 {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+}
+.box7 {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    margin-right: 20px;
+}
+
+.box8 {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    margin-right: 20px;
+}
+
+.box9 {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+button {
+    padding: 20px 60px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: chartreuse;
+    border: 5px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+button:hover {
+    transition: 0.2s;
+    background-color: black;
+    color: chartreuse;
+}
